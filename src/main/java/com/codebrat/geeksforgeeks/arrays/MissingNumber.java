@@ -13,4 +13,14 @@ public class MissingNumber {
 
         return sum;
     }
+
+    public int missingNumber(int[] arr, int n) {
+        int sumToN = 0;
+        int runningSum = 0;
+        for(int i = 0; i < arr.length; i++){
+            sumToN+=i+1;
+            runningSum+=arr[i];
+        }
+        return sumToN+n-runningSum;
+    }
 }

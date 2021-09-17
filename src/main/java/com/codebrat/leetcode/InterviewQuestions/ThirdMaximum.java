@@ -1,6 +1,5 @@
 package com.codebrat.leetcode.InterviewQuestions;
 
-import java.util.Set;
 import java.util.TreeSet;
 
 public class ThirdMaximum {
